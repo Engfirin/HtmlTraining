@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(171, 189, 212);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 20px;
+ 
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(247, 9, 9, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: #bc1515;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.6;
+    color: #0a0909;
+    text-align: justify;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    color: #18263a;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+ol, ul {
+    font-size: 40px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    margin-right: 45px;
+}
+
+ol li, ul li {
+    margin-left: 300px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul[type="cycle"] {
+    list-style-type: circle; /* If you want cycle-like bullets */
+}
+
+.container ul li:last-child,
+.container ol li:last-child {
+    font-weight: bold;
+    color: #333;
+}
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 40px;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.styled-table td {
+    font-weight: 500;
+}
+
+.styled-table th {
+    font-weight: bold;
+    font-size: 45px;
+}
+.Form {
+    background-color: white;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 58px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="ratio"],
+textarea,
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+radio{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+        
+
+
+
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.foter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(247, 9, 9, 0.1);
+    font-family: Arial, sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+
+}
